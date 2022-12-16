@@ -1,0 +1,238 @@
+@import url(../libs/bootstrap/bootstrap.min.css);
+@import url(../fonts/inter/stylesheet.css);
+
+body {
+    background-color: rgb(216, 236, 161);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100%;
+}
+
+a:visited {
+    color:inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(105, 105, 229);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.logo_img {
+    width: 50px;
+    height: 50px;
+}
+
+.header_logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.footer {
+    background-color: rgb(105, 105, 229);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.home {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.home_img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    transition: .7s all ease-in-out;
+    
+}
+
+.home_img:hover{
+  transform: scale(1.2); 
+}
+
+.home_box{
+    text-align: center;
+    cursor: pointer; 
+    width: 380px;
+    margin: 0 auto;
+}
+
+.home_img_box {
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.home_title {
+    margin-bottom: 20px;
+}
+
+.home_title:hover {
+    color: rgb(39, 137, 223);
+}
+
+.form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 430px;
+    border-radius: 5%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.form-title {
+    color: black;
+    text-shadow: none;
+}
+
+.form.login {
+    height: 270px;
+}
+
+.signup-input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 250px;
+}
+
+.signup-main {
+    text-align: center;
+}
+
+.main {
+    padding-top: 40px;
+    padding-bottom: 120px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.main.login{
+    padding-bottom: 0;
+}
+
+.signup-btn {
+    border: none;
+    background-color: rgb(88, 48, 190);
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+
+.football-box {
+    margin: 0 auto;
+    background-color: #d5dce695;
+    height: 400px;
+    width: 600px;
+    border-radius: 5%;
+    padding-top: 20px;
+}
+
+.football-box__title {
+    margin-bottom: 20px;
+}
+
+.football_title {
+    margin-bottom: 30px;
+}
+
+.book-btn {
+    border: none;
+    background-color: rgb(88, 48, 190);
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.book-input {
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    
+}
+
+.main.football{
+    text-align: center;
+    background: url('../imgs/football_2.jpg') center/cover no-repeat;
+    position: relative;
+    opacity: .9;
+}
+
+.main.volleyball{
+    text-align: center;
+    background: url('../imgs/volleyball_2.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.main.picnic {
+    text-align: center;
+    background: url('../imgs/picnic_2.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.main.canteen {
+    text-align: center;
+    background: url('../imgs/canteen_2.jpeg') center/cover no-repeat;
+    position: relative;
+}
+
+.icons-box {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.icons-box i:hover{
+    color: black;
+}
+
+.footer-link:hover {
+    color: black;
+}

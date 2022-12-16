@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='../libs/calendar/rome.css' rel='stylesheet' type='text/css' />
+    <link href='../libs/calendar/example.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <img src="../imgs/logo.png" alt="" class="logo_img">
+        </div>
+        <nav class="nav">
+            <a href="./home.html" class="header_link">Home</a>
+            <a href="./about.html" class="header_link">About</a>
+            <a href="./login.html" class="header_link">Login</a>
+            <a href="./signup.html" class="header_link">Signup</a>
+        </nav>
+    </header>
+    <main class="main canteen">
+        <div class="container">
+            <div class="football-box">
+                <h2 class="football_title">Book online Picnic hoster</h2>
+                <h4 class="football-box__title">Select date and time</h4>
+                <div class="examples">
+                    <div class="parent" id="parent-1">
+                        <label for='dt'>Pick a date and a time: </label>
+                        <input id='dt' class='input'>
+                        <pre>
+                        <code>
+                            rome(input);
+                        </code>
+                    </pre>
+                    </div>
+                    <div class="parent">
+                        <label for='dt' class="label-2">Works just fine with initial values! </label>
+                        <label for="ivi">From</label>
+                        <input id='ivi' class='input input-1' value='2014-12-15 21:00' />
+                        <label for="ivp" class="input-block">To</label>
+                        <input id='ivp' class='input input-2' />
+                    </div>
+                    <h4 class="football-box__title">Enter your group name</h4>
+                    <input id='group' type="text" class="book-input" required />
+                    <button class="book-btn" type='click'>Book</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="icons-box">
+            <a href="https://www.instagram.com/nureles16/" class="footer-link"><i
+                    class="fa-brands fa-instagram fa-xl"></i></a>
+            <a href="https://www.instagram.com/nureles16/" class="footer-link"><i
+                    class="fa-brands fa-facebook fa-xl"></i></a>
+            <a href="https://www.instagram.com/nureles16/" class="footer-link"><i
+                    class="fa-brands fa-twitter fa-xl"></i></a>
+            <a href="http://alatoo.edu.kg/" class="footer-link"><i class="fa-brands fa-chrome fa-xl"></i></a>
+            <a href="https://t.me/madinaakpaeva" class="footer-link"><i class="fa-brands fa-telegram fa-xl"></i></a>
+        </div>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright"></i> All rights reserved
+        </div>
+    </footer>
+    <script src='../libs/calendar/rome.js'></script>
+    <script src='../libs/calendar/example.js'></script>
+    <script src="../libs/icons/all.min.js"></script>
+</body>
+</html>

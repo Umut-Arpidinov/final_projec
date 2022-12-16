@@ -1,0 +1,31 @@
+
+  pre code {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .parent {
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+  }
+  
+  .input {
+    color: black;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+
+  /* .input.input-2{
+    margin-left: 10px;
+  } */
+
+  #parent-1 {
+    display: none;
+  }
+
+  .label-2 {
+    display: none;
+  }
