@@ -1,3 +1,4 @@
 # Web_project
-# Team-Members
+# Team-Members:
 # Umut Arpidinov
+# Nureles Almazbekov
